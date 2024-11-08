@@ -60,3 +60,18 @@ url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
         margin-top: 2rem;
 
     }
+
+    .graficos-conteiner{
+        margin: 5rem;
+    }
+    .graficos-container_texto {
+        font-size: 1.3rem;
+        text-align: center;
+        padding: 2rem;
+        border: var(--secondary-color) solid 2px;
+      }
+      
+      span {
+        font-weight: bold;
+        color: var(--secondary-color);
+       }
