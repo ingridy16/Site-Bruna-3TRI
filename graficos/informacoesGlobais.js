@@ -1,6 +1,6 @@
-const url= 'https://github.com/guilhermeonrails/api/blob/main/dados-globais.json'
+const url= 'https://raw.githubusercontent.com/guilhermeonrails/api/main/dados-globais.json'
 
-async function visualisarinformacoesGlobais() {
+async function visualisarInformacoesGlobais() {
     const res= await fetch(url)
     const dados= await res.json()
     cosole.log(dados);
@@ -12,4 +12,4 @@ const container = document.getElementById('graficos-container')
 container.appendChild(paragrafo)
 }
 
-visualisarinformacoesGlobais()
+visualisarInformacoesGlobais()
