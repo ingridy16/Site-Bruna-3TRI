@@ -4,7 +4,7 @@ url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
 :root{
     --bg-color: #35374B;
     --primary-color: #50727B;
-    --secondat-color: #78A083;
+    --secondary-color: #78A083;
     --font: "SUSE", system-ui;
     }
 
@@ -70,8 +70,12 @@ url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
         padding: 2rem;
         border: var(--secondary-color) solid 2px;
       }
-      
+
       span {
         font-weight: bold;
         color: var(--secondary-color);
        }
+
+       .grafico {
+        margin-top: 3rem;
+    }
